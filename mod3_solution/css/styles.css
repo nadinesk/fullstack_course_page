@@ -1,0 +1,40 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  
+}
+
+/* Header */
+.navbar-brand {
+  font-size: 1.5em;  
+  
+}
+
+hr {
+  padding: 0px;
+  margin: 5px;
+}
+
+
+/* End Header */
+
+/* Content */
+
+h2 {
+  font-size: 1.4em;
+ }
+
+h3 {
+  font-size: 1.3em;
+}
+
+
+#textpara {  
+  background-color: #e4e4ff;
+  margin: 20px;
+  padding: 15px;
+  min-height: 1000px;
+}
+
+
+/* End Content */
