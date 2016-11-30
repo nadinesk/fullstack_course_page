@@ -121,9 +121,9 @@ function buildAndShowHomeHTML (categories) {
       //
       // var homeHtmlToInsertIntoMainPage = ....
 
-       var homeHtmlToInsertIntoMainPage = insertProperty("'" + chosenCategoryShortName + "'",
+       var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml,
                      "randomCategoryShortName",
-                     homeHtmlUrl);
+                     "'" + chosenCategoryShortName + "'");
 
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
@@ -131,7 +131,7 @@ function buildAndShowHomeHTML (categories) {
       // of how to do that.
       // ....
 
-      insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
+      insertHtml("#main-content", homeHtml);
 
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
